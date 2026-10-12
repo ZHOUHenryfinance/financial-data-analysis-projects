@@ -12,7 +12,8 @@ set more off
 set logtype text
 cap log close
 
-cd "C:\Users\LENOVO\Desktop\financial-data-analysis-projects\project2_stata"
+* 提示：运行前请将工作目录切换为本文件所在文件夹（或取消下一行注释并改为你的路径）
+* cd "C:/path/to/your/working/directory"
 log using "regression_log.txt", replace text
 
 display "================================================"
