@@ -16,3 +16,8 @@
 - **模型**：`ROA = β0 + β1×RD_intensity + β2×Debt_ratio + β3×Firm_size + ε`
 - **稳健性检验**：更换自变量、更换因变量、异方差稳健标准误
 - **文件**：`rd_performance_regression.do` + `sample_data.csv`
+
+## 数据说明
+
+- 项目1：通过 akshare 公开接口获取A股新能源行业上市公司财务指标（2023年最新一期），清洗、去重后得到47家样本，输出为 `cleaned_financial_data.csv`。
+- 项目2：`sample_data.csv` 中公司名称已做匿名化处理（XN_NewEnergy_XX 编号形式），回归分析代码可基于该数据完整复现。
